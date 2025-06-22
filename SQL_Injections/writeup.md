@@ -38,7 +38,10 @@ Cookies or HTTP headers (advanced)
 ### ✅ Start small:
 
 ```sql
-sql
-' --
+' -- 
+
+### 🔁 Then escalate:
+
+' OR '1'='1' -- 
 
 
