@@ -38,20 +38,5 @@ Cookies or HTTP headers (advanced)
 ### ✅ Start small:
 
 ```sql
-' -- 
+' --
 
-Then escalate:
-
-```sql
-' OR '1'='1' --
-
- 
-Observe application responses:
-
-Error messages (e.g., SQL syntax error)
-
-Authentication bypass
-
-Data leakage
-
-Time delay (for blind SQLi)
