@@ -11,6 +11,7 @@ This can allow an attacker to view data that they are not normally able to retri
 These methods work when you have access to the application's frontend (e.g., login forms, URL parameters, search bars).
 
 ✅ Input Fields to Test:
+
 Login forms
 
 Search bars
