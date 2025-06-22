@@ -22,6 +22,8 @@ Then open Burp Suite and and go to the Proxy →  HTTP History and go to the fil
 
 ![Step1](Images/PT1.png)
 
+
+
 Send this request to repeater and modify the filename to ../../../etc/passwd to get the hidden files
 
 ![Step2](Images/PT2.png)
