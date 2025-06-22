@@ -6,7 +6,8 @@ This can allow an attacker to view data that they are not normally able to retri
 
 <H2><B>How to detect SQL injection vulnerabilities?</B></H2>
 
-🔍 1. Manual Detection Techniques
+<H3>🔍 1. Manual Detection Techniques</H3>
+
 These methods work when you have access to the application's frontend (e.g., login forms, URL parameters, search bars).
 
 ✅ Input Fields to Test:
