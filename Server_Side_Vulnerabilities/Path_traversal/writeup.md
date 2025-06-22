@@ -20,11 +20,11 @@ Open the Burp browser and load the website
 
 Then open Burp Suite and and go to the Proxy →  HTTP History and go to the filename=image request and open it
 
-![Step1](../Server_Side_Vulnerabilities/Path_traversal/Images/PT1.png)
+![Step1](Images/PT1.png)
 
 Send this request to repeater and modify the filename to ../../../etc/passwd to get the hidden files
 
-![step2](../Server_Side_Vulnerabilities/Path_traversal/Images/PT2.png)
+![Step2](Images/PT2.png)
 
 
 **And we saw an Example of File Path Traversal** 
