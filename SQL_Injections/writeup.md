@@ -38,5 +38,7 @@ Cookies or HTTP headers (advanced)
 ### ✅ Start small:
 
 ```sql
+sql
 ' --
+
 
