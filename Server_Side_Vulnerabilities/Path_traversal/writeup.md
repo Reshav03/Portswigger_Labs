@@ -20,10 +20,10 @@ Open the Burp browser and load the website
 
 Then open Burp Suite and and go to the Proxy →  HTTP History and go to the filename=image request and open it
 
-![image.png](attachment:08292422-7740-4c56-86d4-f533f76cb054:image.png)
+![Step1](attachment:08292422-7740-4c56-86d4-f533f76cb054:image.png)
 
 Send this request to repeater and modify the filename to ../../../etc/passwd to get the hidden files
 
-![image.png](attachment:08f3895f-6eae-491e-8d88-07fcc95ee6eb:image.png)
+![step2](attachment:08f3895f-6eae-491e-8d88-07fcc95ee6eb:image.png)
 
 And Ta Da! it is solved
