@@ -9,7 +9,7 @@ This gives the URL to the administrator panel
 
 Now adding the /administrator-panel to the URL
 
-![Step2](../Images/Lab_1_2.png)
+![Step2](../Access_Control/Images/Lab_1_2.png)
 
 We get the URL hosting the users
 
