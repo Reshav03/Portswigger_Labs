@@ -5,7 +5,7 @@ First we open the website and type robots.txt in the URL
 
 This gives the URL to the administrator panel
 
-[Step1]()
+[Step1](Server_Side_Vulnerabilities/Access_Control/Images/Lab_admin_functionality.png)
 
 We get the URL hosting the users
 
