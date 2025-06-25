@@ -8,15 +8,15 @@ You can log in to your own account using the following credentials: `wiener:pet
 Lets login into the application using the given credentials
 After login into the account we can inspect the request in the Burp
 
-![Step1]()
+![Step1](../Access_Control/Images/Lab_3_1.png)
 
 Here in the cookie we can see that Admin=False is written in the Cookie
 Now lets go into the inspect of the browser and change the Admin=true in the Cookie
 
-![Step2]()
+![Step2](../Access_Control/Images/Lab_3_2.png)
 
 After changing the cookie you can see the admin panel
 
-![Step3]()
+![Step3](../Access_Control/Images/Lab_3_3.png)
 
 Lets delete the Carlos account and we have solved this lab
