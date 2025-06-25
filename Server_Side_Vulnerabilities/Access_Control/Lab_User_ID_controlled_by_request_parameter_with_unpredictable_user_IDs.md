@@ -5,18 +5,18 @@ You can log in to your own account using the following credentials: `wiener:pet
 
 Lets first login by our own credentials
 
-![Step1]()
+![Step1](../Access_Control/Images/Lab_4_1.png)
 
 We get this information
 
 After login in check the posts made by carlos
 Then click on carlos's username and see the changes in the URL
 
-![Step2]()
+![Step2](../Access_Control/Images/Lab_4_2.png)
 
 Get his user-id and go to your login page and input his user ID in the URL
 
-![Step3]()
+![Step3](../Access_Control/Images/Lab_4_3.png)
 
 And now you get his API Key.
 
