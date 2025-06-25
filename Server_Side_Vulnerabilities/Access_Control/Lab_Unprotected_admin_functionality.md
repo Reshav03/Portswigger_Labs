@@ -1,6 +1,5 @@
-This lab has an unprotected admin panel.
-
-Solve the lab by deleting the user `carlos`.
+<H3>This lab has an unprotected admin panel.
+Solve the lab by deleting the user `carlos`.</H3>
 
 First we open the website and type robots.txt in the URL
 
