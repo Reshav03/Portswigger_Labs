@@ -7,6 +7,10 @@ This gives the URL to the administrator panel
 
 [Step1](Server_Side_Vulnerabilities/Access_Control/Images/Lab_admin_functionality.png)
 
+Now adding the /administrator-panel to the URL
+
+[Step2]()
+
 We get the URL hosting the users
 
 We can now easily delete the user Carlos
